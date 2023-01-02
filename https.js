@@ -1,5 +1,5 @@
-const send = require('./request');
-const read = require('./response');
+const { send } = require('./request');
+const { read } = require('./response');
 const { RESQUEST_TIMEOUT } = require('./request')
 
 function makeRequest (url, data){
