@@ -9,7 +9,9 @@ function send(url, data) {
     console.log(`sending ${encryptedData} to ${url}`);
 }
 
-export {
+module.exports = {
     RESQUEST_TIMEOUT,
     send
 }
+
+console.log("Hello from request.js")
